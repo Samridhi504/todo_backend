@@ -14,7 +14,7 @@ mongoose
   .then(() => console.log("DB connected"))
   .catch(() => console.log(err));
 
-const Todo = mongoose.model("Todo", new mongoose.schema({
+const Todo = mongoose.model("Todo", new mongoose.Schema({
   text:String
 }));
 
